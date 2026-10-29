@@ -1,0 +1,16 @@
+# Compilados de Maven / NetBeans
+target/
+nbproject/private/
+*.war
+*.class
+
+# CLAVE PRIVADA DE FIREBASE: nunca se sube
+clave-firebase.json
+*-firebase-adminsdk-*.json
+serviceAccount*.json
+
+# Temporales
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store

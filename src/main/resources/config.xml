@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+<sistema>
+	<nombre>PanaderiaFirebase</nombre>
+</sistema>
+
+<!--
+  FIREBASE (reemplaza la sección <db> de Oracle)
+  credenciales: ruta COMPLETA al archivo .json de la cuenta de servicio
+                (Firebase Console > Configuración del proyecto > Cuentas de servicio >
+                 Generar nueva clave privada). Ese archivo NO se sube a GitHub.
+  proyecto:     ID del proyecto de Firebase (aparece en Configuración del proyecto).
+-->
+<firebase>
+	<credenciales>C:\Users\willy\PanaderiaSanCarlos\PanaderiaFirebase\clave-firebase.json</credenciales>
+	<proyecto>panaderia-san-carlos-1d6f5</proyecto>
+</firebase>
+
+<seguridad>
+	<!-- Frase larga y privada para firmar los tokens de inicio de sesión -->
+	<secreto>CAMBIE-ESTA-FRASE-por-una-larga-y-privada-2026</secreto>
+</seguridad>
+
+</configuration>
